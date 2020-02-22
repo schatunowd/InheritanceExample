@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Creature" Collapsed="true">
+    <Position X="7" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIQAAAAAQAAAAAAAAAAAAAAwAAAAAAAAAAAAAAAAABQ=</HashCode>
+      <FileName>Example2.cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Animal" Collapsed="true">
+    <Position X="7" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAAAAAAAAAAAAAAIAAAAAQAAIAAAAAAAAAQ=</HashCode>
+      <FileName>Example2.cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Bird" Collapsed="true">
+    <Position X="9.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAgAAAAAAQ=</HashCode>
+      <FileName>Example2.cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Fish" Collapsed="true">
+    <Position X="4.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAICAAAAAAgAAAAAAAAQ=</HashCode>
+      <FileName>Example2.cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Predator" Collapsed="true">
+    <Position X="7" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAACAAAEAAAA=</HashCode>
+      <FileName>Example2.cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Eagle" Collapsed="true">
+    <Position X="8" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAACAAAAAAAA=</HashCode>
+      <FileName>Example2.cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
