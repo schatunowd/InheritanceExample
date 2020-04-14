@@ -1,0 +1,72 @@
+#include <iostream>
+using namespace std;
+
+class B1 
+{
+public:
+    int b1;
+    B1() 
+    {
+        b1 = 4;
+    }
+};
+
+class B2 
+{
+public:
+    int b2;
+    B2() 
+    {
+        b2 = 6;
+    }
+};
+
+class D1 : virtual protected B1 
+{
+public:
+    int d1;
+    D1() 
+    {
+        d1 = 3;
+    }
+};
+
+class D2 : virtual public B1 {
+public:
+    int d2;
+    D2() 
+    {
+        d2 = 1;
+    }
+};
+
+class D3 : protected D2, protected B2 
+{
+public:
+    int d3;
+    D3() 
+    {
+        d3 = 6;
+    }
+};
+
+class D4 : public D1, public D3 
+{
+public:
+    int d4;
+    D4() 
+    {
+        d4 = 5;
+    }
+    
+};
+
+int main() {
+    B1 b1;
+    B2 b2;
+    D1 d1;
+    D2 d2;
+    D3 d3;
+    D4 d4;
+    return 0;
+}
